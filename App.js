@@ -4,7 +4,10 @@ import CategoryScreen from './screens/CategoryScreen';
 
 export default function App() {
   return (
+    <>
+    <StatusBar style='light' />
     <CategoryScreen />
+    </>
   );
 }
 
