@@ -13,6 +13,7 @@ export default function CategoryScreen() {
             data = {CATEGORIES}
             keyExtractor={(item) => item.id}
             renderItem={renderCategoryItem}
+            numColumns={2}
         />
     )
 }
