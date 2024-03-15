@@ -1,9 +1,10 @@
 import { StyleSheet, Text, View } from "react-native";
 
-export default function MealOverviewScreen() {
+export default function MealOverviewScreen({ route }) {
+    const catId = route.params.categoryId
     return (
         <View style = {styles.container}>
-            <Text>Meals Overview Screen</Text>
+            <Text>Meals Overview Screen - {catId}</Text>
         </View>
     )
 }
