@@ -5,6 +5,7 @@ import { StyleSheet } from 'react-native';
 
 import CategoryScreen from './screens/CategoryScreen';
 import MealsOverviewScreen from './screens/MealsOverviewScreen';
+import MealDetailsScreen from './screens/MealDetailsScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -36,6 +37,10 @@ export default function App() {
           //    title: catId
           //  }
           //}}
+        />
+        <Stack.Screen
+          name="MealDetails"
+          component={MealDetailsScreen}
         />
       </Stack.Navigator>
     </NavigationContainer>
