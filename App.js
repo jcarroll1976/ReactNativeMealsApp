@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { StyleSheet } from 'react-native';
+import { Button, StyleSheet } from 'react-native';
 
 import CategoryScreen from './screens/CategoryScreen';
 import MealsOverviewScreen from './screens/MealsOverviewScreen';
